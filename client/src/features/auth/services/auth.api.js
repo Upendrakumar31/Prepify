@@ -9,14 +9,6 @@ const api = axios.create({
 // This runs automatically before every single request (register, login, getMe, etc.)
 api.interceptors.request.use(
     (config) => {
-        // Grab the token from Local Storage
-        const token = localStorage.getItem('token');
-        
-        // If a token exists, attach it to the Authorization header
-        if (token) {
-            config.headers.Authorization = `Bearer ${token}`;
-        }
-        
         return config;
     },
     (error) => {
