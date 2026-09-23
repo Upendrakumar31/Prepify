@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin : "https://prepify-frontend-xtu3.onrender.com",
+  origin: "https://prepify-resume.onrender.com",
   credentials: true,
 }));
 
