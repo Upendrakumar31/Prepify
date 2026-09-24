@@ -2,6 +2,12 @@
 
 AI-powered interview preparation platform that analyzes your resume, job description, and self-description to generate a personalized interview preparation plan.
 
+## Live Demo
+
+🚀 Live Application: https://prepify-resume.onrender.com
+
+📂 GitHub Repository: https://github.com/Upendrakumar31/Prepify
+
 ## Features
 
 - Resume analysis
